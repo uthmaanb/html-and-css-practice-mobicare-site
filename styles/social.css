@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* colors for icons, background in contact bar  */
+#social {
+  background-color: #000000;
+  color: white;
+  display: flex; /* moves "children" inline*/
+  justify-content: space-between; /*spaces "children"*/
+  align-items: center;
+  padding: 10px 5%;
+}
+
+.social-contact {
+  display: flex;
+}
+
+.social-contact p {
+  margin-right: 20px;
+}
