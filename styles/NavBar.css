@@ -1,0 +1,29 @@
+#NavBar {
+  display: flex;
+  background-color: #f26525;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 10%;
+}
+
+#NavBar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar-link a {
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 100;
+  font-size: 15px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.fa-search {
+  color: white;
+}
