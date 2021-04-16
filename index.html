@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="./styles/social.css" />
     <link rel="stylesheet" href="./styles/contact.css" />
     <link rel="stylesheet" href="./styles/NavBar.css" />
+    <link rel="stylesheet" href="./styles/carousel.css" />
     <!-- external scripts -->
     <script
       src="https://kit.fontawesome.com/d85f3a3d4a.js"
       crossorigin="anonymous"
+      src="./scripts/carousel.js"
     ></script>
   </head>
   <body>
@@ -68,16 +70,34 @@
       <button class="mobile-menu"><i class="fas fa-bars"></i></button>
       <i class="fas fa-search"></i>
     </nav>
-    <!-- Landing Section -->
+    <!-- Landing/carousel Section -->
     <header>
-      <button><i class="fas fa-chevron-left"></i></button>
-      <div>
-        <p></p>
-        <p></p>
-        <p></p>
-        <button></button>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img_nature_wide.jpg" style="width: 100%" />
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img_snow_wide.jpg" style="width: 100%" />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img_mountains_wide.jpg" style="width: 100%" />
+          <div class="text">Caption Three</div>
+        </div>
       </div>
-      <button><i class="fas fa-chevron-right"></i></button>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
     </header>
     <!-- Why section -->
     <section>Why section</section>
